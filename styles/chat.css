@@ -1,0 +1,247 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.chat-box-container{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 30%;
+    margin: 5% auto;
+    height: 77vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0.5, 0.05);
+}
+
+.scroll-down{
+    background:transparent;
+    color:black;
+    width:35px;
+    height: 5px;
+    border-radius: 5px;
+    padding:2px -30px;
+    border: 2px solid white;
+    float: right;
+}
+
+.contact-chatting{
+    background: white;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:15%;
+}
+
+.contact{
+    background: white;
+    color: black;
+    width:85%;
+    height:20%;
+    margin: 10px;
+    padding:10px;
+    border: 2px solid white;
+}
+
+.back{
+    width:50px;
+    height: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.contact-name{
+    width:70%;
+    text-align: left;
+    float: left;
+    height: 50px;
+    border: 2px solid white;
+}
+
+.contact-name .img{
+    width:25%;
+    text-align: left;
+    float: left;
+    line-height:15px;
+    height: 50px;
+    border: 2px solid white;
+}
+
+.contact-name .name{
+    width:50%;
+    text-align: left;
+    float: left;
+    line-height:15px;
+    height: 20px;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.contact-name .bio{
+    color:grey;
+    overflow: hidden;
+    font-size: 12px;
+    width: 500px;
+    text-overflow: ellipsis;
+}
+
+.messages-container{
+    background: #f4f4f4;
+    color:black;
+    padding:10px;
+    width:auto;
+    height: 63%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-top: 2px solid #f4f4f4;
+}
+
+.messages-info{
+    background: white;
+    color:black;
+    padding: 1px 20px;
+    width:auto;
+    font-size: 15px;
+    text-align: left;
+    height: 3%;
+    border-top: 2px solid white;
+}
+
+.messages-info .typing b{
+    color: #081089;
+}
+
+.messages-container .message-from-user{
+    background: #555aab;
+    color: white;
+    padding:5px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    border-radius: 10px;
+    min-width: 55px;
+    max-width: 200px;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0.5, 0.01);
+}
+
+.messages-container .message-from-user .message{
+    background: #555aab;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    min-width: 55px;
+    max-width: 200px;
+    word-wrap: break-word;
+    font-family: 'Calibri light';
+}
+
+.messages-container .message-from-user .time{
+    background: #555aab;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    font-family: 'Calibri light';
+}
+
+.messages-container .message-to-user{
+    background: #ffffff;
+    color: black;
+    padding:5px;
+    float: left;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    border-radius: 10px;
+    min-width: 55px;
+    max-width: 200px;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0.5, 0.01);
+}
+
+.messages-container .message-to-user .message{
+    background: #ffffff;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    min-width: 55px;
+    max-width: 200px;
+    word-wrap: break-word;
+    font-family: 'Calibri light';
+}
+
+.messages-container .message-to-user .time{
+    background: #ffffff;
+    color: black;
+    font-size: 10px;
+    text-align: right;
+    font-family: 'Calibri light';
+}
+
+.messages-container .sep{
+    background: transparent;
+    width:100%;
+    margin-top: 10px;
+    display: block;
+    overflow: auto;
+}
+.messages-container .message-date{
+    background: #bcd5f1;
+    color:black;
+    border-radius: 5px;
+    padding: 10px;
+    width:fit-content;
+    font-size: 15px;
+    font-family: 'Calibri light';
+    font-weight: 700;
+    margin-top: 10px;
+    margin: auto;
+    overflow: auto;
+    box-shadow: 1px 1px 3px 3px rgb(0, 0, 0.5, 0.01);
+}
+
+.message-typing-box input[type=text]{
+    background: white;
+    color:black;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    border-radius: 5px;
+    padding:10px 10px;
+    width:73%;
+    outline: none;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0.5, 0.05);
+}
+
+.message-typing-box button{
+    background: #081089;
+    color:color;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    border-radius: 5px;
+    border:2px solid #081089;
+    padding:7px 10px;
+    width:12%;
+    outline: none;
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0.5, 0.05);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

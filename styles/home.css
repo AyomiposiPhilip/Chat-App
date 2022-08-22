@@ -1,0 +1,217 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.contacts-box-container{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 30%;
+    margin: 5% auto;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0.5, 0.05);
+}
+
+.user-details-container{
+    background: white;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:20%;
+}
+
+.user-details{
+    background: white;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:100%;
+    padding:10px;
+}
+
+.contact-container{
+    background: white;
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height:70%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.footer{
+    background: white;
+    color: black;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height:10%;
+}
+
+.footer a{
+    color: blue;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.contact-container a{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contact-container a:hover{
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.contact-container input[type=text]{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: auto;
+    width: 70%;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0.5, 0.05);
+}
+
+.contact-container button{
+    background: #081089;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: auto;
+    width: 30%;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid #081089;
+    cursor: pointer;
+    transition: box-shadow 1s, background 1s;
+}
+
+.contact-container button:hover{
+    box-shadow: 2px 2px 6px 6px rgb(0, 0, 0.5, 0.05);
+}
+
+.contact-container button:disabled{
+    background: #383c79;
+    color: white;
+    outline: none;
+    border: 2px solid #383c79;
+    cursor: not-allowed;
+}
+
+.user-profile{
+    width:70px;
+    height:70px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.user-username{
+    width:50%;
+    height:50px;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.user-username .bio{
+    font-size: 10px;
+}
+
+.user-settings{
+    width:50px;
+    height:50px;
+    float: left;
+    padding: 10px;
+}
+
+.user-settings button{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.user-contacts{
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-contacts:hover{
+    background: #ddd;
+    color: black;
+    font-size: 20px;
+    font-family: 'Calibri light';
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.user-contacts .contact-profile{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.user-contacts .contact-username{
+    background: transparent;
+    float: left;
+    width:65%;
+    text-align: left;
+    height: 30px;
+    padding:10px;
+    line-height: 16px;
+}
+
+.user-contacts .contact-status{
+    background: transparent;
+    float: left;
+    width:5%;
+    height: 30px;
+    padding:10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
